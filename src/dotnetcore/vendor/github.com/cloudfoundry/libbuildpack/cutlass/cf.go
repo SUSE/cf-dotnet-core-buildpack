@@ -12,6 +12,7 @@ import (
 	"path/filepath"
 	"strconv"
 	"strings"
+	"time"
 
 	"github.com/blang/semver"
 	"github.com/tidwall/gjson"
@@ -152,10 +153,19 @@ func UpdateBuildpack(language, file, stack string) error {
 
 func createBuildpack(language, file string) error {
 	command := exec.Command("cf", "create-buildpack", fmt.Sprintf("%s_buildpack", language), file, "100", "--enable")
-	if data, err := command.CombinedOutput(); err != nil {
+	data, err := command.CombinedOutput()
+	if err != nil {
 		return fmt.Errorf("Failed to create buildpack by running '%s':\n%s\n%v", strings.Join(command.Args, " "), string(data), err)
 	}
-	return nil
+	for i := 0; i < 2; i++ {
+		output, _ := exec.Command("cf", "buildpacks").CombinedOutput()
+		if strings.Contains(string(output), language) {
+			return nil
+		} else {
+			time.Sleep(2 * time.Second)
+		}
+	}
+	return fmt.Errorf("Failed to create buildpack by running '%s':\n%s\n%v", strings.Join(command.Args, " "), string(data), err)
 }
 
 func CountBuildpack(language string) (int, error) {
@@ -176,7 +186,9 @@ func CountBuildpack(language string) (int, error) {
 }
 
 func CreateOrUpdateBuildpack(language, file, stack string) error {
-	createBuildpack(language, file)
+	if err := createBuildpack(language, file); err != nil {
+		return err
+	}
 	return UpdateBuildpack(language, file, stack)
 }
 
