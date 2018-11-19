@@ -20,8 +20,8 @@ import (
 )
 
 func defaultCleanup(app *cutlass.App) {
-	DestroyApp(app)
-	os.RemoveAll(app.Path)
+	//DestroyApp(app)
+	//os.RemoveAll(app.Path)
 }
 
 func UnbuiltBuildpack(depName string, copyBrats func(string) *cutlass.App) {
