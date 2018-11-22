@@ -1,0 +1,2251 @@
+execve("./dotnet/dotnet", ["./dotnet/dotnet", "--version"], [/* 8 vars */]) = 0
+brk(0)                                  = 0x1762000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f923b6be000
+close(3)                                = 0
+open("/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=18712, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b6bd000
+mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f923b2a8000
+mprotect(0x7f923b2aa000, 2097152, PROT_NONE) = 0
+mmap(0x7f923b4aa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f923b4aa000
+close(3)                                = 0
+open("/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=135952, ...}) = 0
+mmap(NULL, 2213008, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f923b08b000
+mprotect(0x7f923b0a3000, 2093056, PROT_NONE) = 0
+mmap(0x7f923b2a2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f923b2a2000
+mmap(0x7f923b2a4000, 13456, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f923b2a4000
+close(3)                                = 0
+open("/usr/lib64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3209\t\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1602648, ...}) = 0
+mmap(NULL, 3710976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f923ad01000
+mprotect(0x7f923ae7c000, 2097152, PROT_NONE) = 0
+mmap(0x7f923b07c000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17b000) = 0x7f923b07c000
+mmap(0x7f923b088000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f923b088000
+close(3)                                = 0
+open("/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260T\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1100480, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b6bc000
+mmap(NULL, 3129672, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f923aa04000
+mprotect(0x7f923aaff000, 2097152, PROT_NONE) = 0
+mmap(0x7f923acff000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xfb000) = 0x7f923acff000
+close(3)                                = 0
+open("/lib64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220/\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=96648, ...}) = 0
+mmap(NULL, 2192432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f923a7ec000
+mprotect(0x7f923a803000, 2093056, PROT_NONE) = 0
+mmap(0x7f923aa02000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f923aa02000
+close(3)                                = 0
+open("/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\10\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1933240, ...}) = 0
+mmap(NULL, 3820000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f923a447000
+mprotect(0x7f923a5e2000, 2097152, PROT_NONE) = 0
+mmap(0x7f923a7e2000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19b000) = 0x7f923a7e2000
+mmap(0x7f923a7e8000, 14816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f923a7e8000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b6bb000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b6ba000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b6b8000
+arch_prctl(ARCH_SET_FS, 0x7f923b6b8740) = 0
+mprotect(0x7f923a7e2000, 16384, PROT_READ) = 0
+mprotect(0x7f923aa02000, 4096, PROT_READ) = 0
+mprotect(0x7f923acff000, 4096, PROT_READ) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b6b7000
+mprotect(0x7f923b07c000, 40960, PROT_READ) = 0
+mprotect(0x7f923b2a2000, 4096, PROT_READ) = 0
+mprotect(0x7f923b4aa000, 4096, PROT_READ) = 0
+mprotect(0x615000, 4096, PROT_READ)     = 0
+mprotect(0x7f923b6cd000, 4096, PROT_READ) = 0
+munmap(0x7f923b6be000, 60745)           = 0
+set_tid_address(0x7f923b6b8a10)         = 12
+set_robust_list(0x7f923b6b8a20, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7f923b091d60, [], SA_RESTORER|SA_SIGINFO, 0x7f923b09bc10}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f923b091df0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(0)                                  = 0x1762000
+brk(0x1794000)                          = 0x1794000
+futex(0x7f923b08905c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f923b089068, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+lstat("/proc", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+lstat("/proc/self", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlink("/proc/self", "12", 4095)      = 2
+lstat("/proc/12", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+lstat("/proc/12/exe", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlink("/proc/12/exe", "/workspace/dotnet/dotnet", 4095) = 24
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/dotnet", {st_mode=S_IFREG|0755, st_size=128926, ...}) = 0
+stat("/workspace/dotnet/host/fxr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/workspace/dotnet/host/fxr", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 4 entries */, 32768)     = 112
+getdents(3, /* 0 entries */, 32768)     = 0
+stat("/workspace/dotnet/host/fxr/1.1.10/libhostfxr.so", {st_mode=S_IFREG|0755, st_size=914864, ...}) = 0
+futex(0x7f923b4ab0a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/workspace/dotnet/host/fxr/1.1.10/libhostfxr.so", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\345\3\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0755, st_size=914864, ...}) = 0
+mmap(NULL, 2745944, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f923a1a8000
+mprotect(0x7f923a245000, 2097152, PROT_NONE) = 0
+mmap(0x7f923a445000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x9d000) = 0x7f923a445000
+close(4)                                = 0
+mprotect(0x7f923a445000, 4096, PROT_READ) = 0
+lstat("/proc", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+lstat("/proc/self", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlink("/proc/self", "12", 4095)      = 2
+lstat("/proc/12", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+lstat("/proc/12/exe", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlink("/proc/12/exe", "/workspace/dotnet/dotnet", 4095) = 24
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/dotnet", {st_mode=S_IFREG|0755, st_size=128926, ...}) = 0
+stat("/workspace/dotnet/libcoreclr.so", 0x7fffcd93e878) = -1 ENOENT (No such file or directory)
+stat("/workspace/dotnet/dotnet.dll", 0x7fffcd93e8c8) = -1 ENOENT (No such file or directory)
+getcwd("/workspace", 4097)              = 11
+stat("/workspace/global.json", {st_mode=S_IFREG|0644, st_size=35, ...}) = 0
+stat("/workspace/global.json", {st_mode=S_IFREG|0644, st_size=35, ...}) = 0
+open("/workspace/global.json", O_RDONLY) = 4
+read(4, "{\n\t\"projects\": [ \"src\", \"test\" ]"..., 8191) = 35
+read(4, "", 8191)                       = 0
+close(4)                                = 0
+open("/workspace/dotnet/sdk", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(4, /* 3 entries */, 32768)     = 80
+getdents(4, /* 0 entries */, 32768)     = 0
+stat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/dotnet.dll", {st_mode=S_IFREG|0644, st_size=450560, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/dotnet.dll", {st_mode=S_IFREG|0644, st_size=450560, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/dotnet.dll", {st_mode=S_IFREG|0644, st_size=450560, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/dotnet.runtimeconfig.dev.json", 0x7fffcd93db88) = -1 ENOENT (No such file or directory)
+stat("/workspace/dotnet/sdk/1.1.11/dotnet.runtimeconfig.json", {st_mode=S_IFREG|0744, st_size=119, ...}) = 0
+open("/workspace/dotnet/sdk/1.1.11/dotnet.runtimeconfig.json", O_RDONLY) = 5
+read(5, "{\n  \"runtimeOptions\": {\n    \"fra"..., 8191) = 119
+read(5, "", 8191)                       = 0
+close(5)                                = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(5, /* 4 entries */, 32768)     = 112
+getdents(5, /* 0 entries */, 32768)     = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/Microsoft.NETCore.App.deps.json", {st_mode=S_IFREG|0644, st_size=135089, ...}) = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/Microsoft.NETCore.App.deps.json", O_RDONLY) = 6
+read(6, "{\n  \"runtimeTarget\": {\n    \"name"..., 8191) = 8191
+brk(0x17b5000)                          = 0x17b5000
+read(6, "ndencies\": {\n          \"System.C"..., 8191) = 8191
+read(6, "time.ubuntu.14.04-x64.runtime.na"..., 8191) = 8191
+read(6, "em.Security.Cryptography/4.3.4\":"..., 8191) = 8191
+read(6, "      \"System.Text.Encoding\": \"4"..., 8191) = 8191
+read(6, "2.Primitives\": \"4.3.0\",\n        "..., 8191) = 8191
+brk(0x17d6000)                          = 0x17d6000
+read(6, "orms\": \"1.1.1\",\n          \"Micro"..., 8191) = 8191
+read(6, "   \"dependencies\": {\n          \""..., 8191) = 8191
+read(6, "tem.Security.Cryptography.Cng\": "..., 8191) = 8191
+read(6, "0.1\": {\n        \"dependencies\": "..., 8191) = 8191
+brk(0x17f7000)                          = 0x17f7000
+read(6, "SMvf8w9p9+keBLyL6H6x/TEmc6QVsIIA"..., 8191) = 8191
+read(6, ".runtime.native.System.Security."..., 8191) = 8191
+read(6, ",\n      \"serviceable\": true,\n   "..., 8191) = 8191
+read(6, "hyIkdh5M7mV2dJepllLyA1SKg==\"\n   "..., 8191) = 8191
+read(6, "le\": true,\n      \"sha512\": \"sha5"..., 8191) = 8191
+brk(0x1818000)                          = 0x1818000
+read(6, "      \"rhel.7.0\",\n      \"ol\",\n  "..., 8191) = 8191
+read(6, "8.1\": [\n      \"linuxmint.18\",\n  "..., 8191) = 4033
+read(6, "", 8191)                       = 0
+close(6)                                = 0
+stat("/opt/coreservicing", 0x7fffcd93e048) = -1 ENOENT (No such file or directory)
+stat("/pkgs/runtime.ubuntu.14.04-x64.Microsoft.NETCore.DotNetHostPolicy/1.1.10/runtimes/ubuntu.14.04-x64/native/libhostpolicy.so", 0x7fffcd93dfc8) = -1 ENOENT (No such file or directory)
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libhostpolicy.so", {st_mode=S_IFREG|0755, st_size=1140916, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libhostpolicy.so", {st_mode=S_IFREG|0755, st_size=1140916, ...}) = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libhostpolicy.so", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\373\4\0\0\0\0\0"..., 832) = 832
+fstat(6, {st_mode=S_IFREG|0755, st_size=1140916, ...}) = 0
+mmap(NULL, 2897704, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x7f9239ee4000
+mprotect(0x7f9239fa6000, 2097152, PROT_NONE) = 0
+mmap(0x7f923a1a6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0xc2000) = 0x7f923a1a6000
+close(6)                                = 0
+mprotect(0x7f923a1a6000, 4096, PROT_READ) = 0
+brk(0x17c8000)                          = 0x17c8000
+lstat("/proc", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+lstat("/proc/self", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlink("/proc/self", "12", 4095)      = 2
+lstat("/proc/12", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+lstat("/proc/12/exe", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlink("/proc/12/exe", "/workspace/dotnet/dotnet", 4095) = 24
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/dotnet", {st_mode=S_IFREG|0755, st_size=128926, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/dotnet.dll", {st_mode=S_IFREG|0644, st_size=450560, ...}) = 0
+stat("/opt/coreservicing", 0x7fffcd93ded8) = -1 ENOENT (No such file or directory)
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/Microsoft.NETCore.App.deps.json", {st_mode=S_IFREG|0644, st_size=135089, ...}) = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/Microsoft.NETCore.App.deps.json", O_RDONLY) = 6
+read(6, "{\n  \"runtimeTarget\": {\n    \"name"..., 8191) = 8191
+read(6, "ndencies\": {\n          \"System.C"..., 8191) = 8191
+read(6, "time.ubuntu.14.04-x64.runtime.na"..., 8191) = 8191
+read(6, "em.Security.Cryptography/4.3.4\":"..., 8191) = 8191
+read(6, "      \"System.Text.Encoding\": \"4"..., 8191) = 8191
+read(6, "2.Primitives\": \"4.3.0\",\n        "..., 8191) = 8191
+read(6, "orms\": \"1.1.1\",\n          \"Micro"..., 8191) = 8191
+read(6, "   \"dependencies\": {\n          \""..., 8191) = 8191
+brk(0x17e9000)                          = 0x17e9000
+read(6, "tem.Security.Cryptography.Cng\": "..., 8191) = 8191
+read(6, "0.1\": {\n        \"dependencies\": "..., 8191) = 8191
+read(6, "SMvf8w9p9+keBLyL6H6x/TEmc6QVsIIA"..., 8191) = 8191
+read(6, ".runtime.native.System.Security."..., 8191) = 8191
+read(6, ",\n      \"serviceable\": true,\n   "..., 8191) = 8191
+brk(0x180a000)                          = 0x180a000
+read(6, "hyIkdh5M7mV2dJepllLyA1SKg==\"\n   "..., 8191) = 8191
+read(6, "le\": true,\n      \"sha512\": \"sha5"..., 8191) = 8191
+read(6, "      \"rhel.7.0\",\n      \"ol\",\n  "..., 8191) = 8191
+read(6, "8.1\": [\n      \"linuxmint.18\",\n  "..., 8191) = 4033
+brk(0x182b000)                          = 0x182b000
+read(6, "", 8191)                       = 0
+close(6)                                = 0
+stat("/workspace/dotnet/sdk/1.1.11/dotnet.deps.json", {st_mode=S_IFREG|0744, st_size=44164, ...}) = 0
+open("/workspace/dotnet/sdk/1.1.11/dotnet.deps.json", O_RDONLY) = 6
+read(6, "{\n  \"runtimeTarget\": {\n    \"name"..., 8191) = 8191
+read(6, "s\": \"1.0.0-beta2-20170629-269\"\n "..., 8191) = 8191
+read(6, "s.dll\": {}\n        }\n      },\n  "..., 8191) = 8191
+read(6, "hashPath\": \"microsoft.build.util"..., 8191) = 8191
+read(6, "4324.nupkg.sha512\"\n    },\n    \"n"..., 8191) = 8191
+read(6, "     \"hashPath\": \"system.text.en"..., 8191) = 3209
+read(6, "", 8191)                       = 0
+close(6)                                = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/dotnet.dll", {st_mode=S_IFREG|0644, st_size=450560, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.ApplicationInsights.dll", {st_mode=S_IFREG|0644, st_size=344064, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.ApplicationInsights.dll", {st_mode=S_IFREG|0644, st_size=344064, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.Build.Framework.dll", {st_mode=S_IFREG|0644, st_size=81920, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.Build.Framework.dll", {st_mode=S_IFREG|0644, st_size=81920, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.Build.Tasks.Core.dll", {st_mode=S_IFREG|0644, st_size=1314816, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.Build.Tasks.Core.dll", {st_mode=S_IFREG|0644, st_size=1314816, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.Build.Utilities.Core.dll", {st_mode=S_IFREG|0644, st_size=659456, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.Build.Utilities.Core.dll", {st_mode=S_IFREG|0644, st_size=659456, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.Build.dll", {st_mode=S_IFREG|0644, st_size=3764224, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.Build.dll", {st_mode=S_IFREG|0644, st_size=3764224, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.CodeAnalysis.dll", {st_mode=S_IFREG|0644, st_size=4800512, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.CodeAnalysis.dll", {st_mode=S_IFREG|0644, st_size=4800512, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.CodeAnalysis.CSharp.dll", {st_mode=S_IFREG|0644, st_size=12013568, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.CodeAnalysis.CSharp.dll", {st_mode=S_IFREG|0644, st_size=12013568, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.Archive.dll", {st_mode=S_IFREG|0644, st_size=233472, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.Archive.dll", {st_mode=S_IFREG|0644, st_size=233472, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.Cli.CommandLine.dll", {st_mode=S_IFREG|0644, st_size=196608, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.Cli.CommandLine.dll", {st_mode=S_IFREG|0644, st_size=196608, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.Cli.Sln.Internal.dll", {st_mode=S_IFREG|0644, st_size=102400, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.Cli.Sln.Internal.dll", {st_mode=S_IFREG|0644, st_size=102400, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.Cli.Utils.dll", {st_mode=S_IFREG|0644, st_size=380928, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.Cli.Utils.dll", {st_mode=S_IFREG|0644, st_size=380928, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.Configurer.dll", {st_mode=S_IFREG|0644, st_size=40960, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.Configurer.dll", {st_mode=S_IFREG|0644, st_size=40960, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.InternalAbstractions.dll", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.InternalAbstractions.dll", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.PlatformAbstractions.dll", {st_mode=S_IFREG|0644, st_size=32768, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.PlatformAbstractions.dll", {st_mode=S_IFREG|0644, st_size=32768, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.ProjectJsonMigration.dll", {st_mode=S_IFREG|0644, st_size=1302528, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.ProjectJsonMigration.dll", {st_mode=S_IFREG|0644, st_size=1302528, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.TestFramework.dll", {st_mode=S_IFREG|0644, st_size=90112, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.DotNet.TestFramework.dll", {st_mode=S_IFREG|0644, st_size=90112, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.Extensions.CommandLineUtils.dll", {st_mode=S_IFREG|0644, st_size=53248, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.Extensions.CommandLineUtils.dll", {st_mode=S_IFREG|0644, st_size=53248, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.Extensions.DependencyModel.dll", {st_mode=S_IFREG|0644, st_size=131072, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.Extensions.DependencyModel.dll", {st_mode=S_IFREG|0644, st_size=131072, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.TemplateEngine.Abstractions.dll", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.TemplateEngine.Abstractions.dll", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.TemplateEngine.Cli.dll", {st_mode=S_IFREG|0644, st_size=352256, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.TemplateEngine.Cli.dll", {st_mode=S_IFREG|0644, st_size=352256, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.TemplateEngine.Core.Contracts.dll", {st_mode=S_IFREG|0644, st_size=24576, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.TemplateEngine.Core.Contracts.dll", {st_mode=S_IFREG|0644, st_size=24576, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.TemplateEngine.Core.dll", {st_mode=S_IFREG|0644, st_size=299008, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.TemplateEngine.Core.dll", {st_mode=S_IFREG|0644, st_size=299008, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.TemplateEngine.Edge.dll", {st_mode=S_IFREG|0644, st_size=237568, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.TemplateEngine.Edge.dll", {st_mode=S_IFREG|0644, st_size=237568, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.TemplateEngine.Orchestrator.RunnableProjects.dll", {st_mode=S_IFREG|0644, st_size=335872, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.TemplateEngine.Orchestrator.RunnableProjects.dll", {st_mode=S_IFREG|0644, st_size=335872, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.TemplateEngine.Utils.dll", {st_mode=S_IFREG|0644, st_size=135168, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.TemplateEngine.Utils.dll", {st_mode=S_IFREG|0644, st_size=135168, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Microsoft.TestPlatform.Build.dll", {st_mode=S_IFREG|0644, st_size=32768, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Microsoft.TestPlatform.Build.dll", {st_mode=S_IFREG|0644, st_size=32768, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/Newtonsoft.Json.dll", {st_mode=S_IFREG|0644, st_size=1306624, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/Newtonsoft.Json.dll", {st_mode=S_IFREG|0644, st_size=1306624, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/NuGet.Build.Tasks.dll", {st_mode=S_IFREG|0644, st_size=106496, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/NuGet.Build.Tasks.dll", {st_mode=S_IFREG|0644, st_size=106496, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/NuGet.CommandLine.XPlat.dll", {st_mode=S_IFREG|0644, st_size=147456, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/NuGet.CommandLine.XPlat.dll", {st_mode=S_IFREG|0644, st_size=147456, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/NuGet.Commands.dll", {st_mode=S_IFREG|0644, st_size=966656, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/NuGet.Commands.dll", {st_mode=S_IFREG|0644, st_size=966656, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/NuGet.Common.dll", {st_mode=S_IFREG|0644, st_size=172032, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/NuGet.Common.dll", {st_mode=S_IFREG|0644, st_size=172032, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/NuGet.Configuration.dll", {st_mode=S_IFREG|0644, st_size=180224, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/NuGet.Configuration.dll", {st_mode=S_IFREG|0644, st_size=180224, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/NuGet.DependencyResolver.Core.dll", {st_mode=S_IFREG|0644, st_size=126976, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/NuGet.DependencyResolver.Core.dll", {st_mode=S_IFREG|0644, st_size=126976, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/NuGet.Frameworks.dll", {st_mode=S_IFREG|0644, st_size=270336, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/NuGet.Frameworks.dll", {st_mode=S_IFREG|0644, st_size=270336, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/NuGet.LibraryModel.dll", {st_mode=S_IFREG|0644, st_size=73728, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/NuGet.LibraryModel.dll", {st_mode=S_IFREG|0644, st_size=73728, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/NuGet.Packaging.Core.dll", {st_mode=S_IFREG|0644, st_size=86016, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/NuGet.Packaging.Core.dll", {st_mode=S_IFREG|0644, st_size=86016, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/NuGet.Packaging.dll", {st_mode=S_IFREG|0644, st_size=598016, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/NuGet.Packaging.dll", {st_mode=S_IFREG|0644, st_size=598016, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/NuGet.ProjectModel.dll", {st_mode=S_IFREG|0644, st_size=335872, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/NuGet.ProjectModel.dll", {st_mode=S_IFREG|0644, st_size=335872, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/NuGet.Protocol.dll", {st_mode=S_IFREG|0644, st_size=1560576, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/NuGet.Protocol.dll", {st_mode=S_IFREG|0644, st_size=1560576, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/NuGet.Versioning.dll", {st_mode=S_IFREG|0644, st_size=106496, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/NuGet.Versioning.dll", {st_mode=S_IFREG|0644, st_size=106496, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/System.Collections.Immutable.dll", {st_mode=S_IFREG|0644, st_size=626688, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/System.Collections.Immutable.dll", {st_mode=S_IFREG|0644, st_size=626688, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/System.Collections.NonGeneric.dll", {st_mode=S_IFREG|0644, st_size=208896, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/System.Collections.NonGeneric.dll", {st_mode=S_IFREG|0644, st_size=208896, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/System.Collections.Specialized.dll", {st_mode=S_IFREG|0644, st_size=86016, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/System.Collections.Specialized.dll", {st_mode=S_IFREG|0644, st_size=86016, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/System.Diagnostics.Contracts.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/System.Diagnostics.Contracts.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib/netstandard1.3/System.Diagnostics.FileVersionInfo.dll", {st_mode=S_IFREG|0644, st_size=36864, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib/netstandard1.3", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib/netstandard1.3/System.Diagnostics.FileVersionInfo.dll", {st_mode=S_IFREG|0644, st_size=36864, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/System.Diagnostics.StackTrace.dll", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/System.Diagnostics.StackTrace.dll", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/System.Diagnostics.TextWriterTraceListener.dll", {st_mode=S_IFREG|0644, st_size=32768, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/System.Diagnostics.TextWriterTraceListener.dll", {st_mode=S_IFREG|0644, st_size=32768, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib/netstandard1.3/System.Diagnostics.TraceSource.dll", {st_mode=S_IFREG|0644, st_size=110592, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib/netstandard1.3", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib/netstandard1.3/System.Diagnostics.TraceSource.dll", {st_mode=S_IFREG|0644, st_size=110592, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib/netstandard1.3/System.IO.Pipes.dll", {st_mode=S_IFREG|0644, st_size=118784, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib/netstandard1.3", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib/netstandard1.3/System.IO.Pipes.dll", {st_mode=S_IFREG|0644, st_size=118784, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/System.Private.DataContractSerialization.dll", {st_mode=S_IFREG|0644, st_size=1773568, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/System.Private.DataContractSerialization.dll", {st_mode=S_IFREG|0644, st_size=1773568, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/System.Reflection.Metadata.dll", {st_mode=S_IFREG|0644, st_size=1064960, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/System.Reflection.Metadata.dll", {st_mode=S_IFREG|0644, st_size=1064960, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/System.Resources.Writer.dll", {st_mode=S_IFREG|0644, st_size=36864, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/System.Resources.Writer.dll", {st_mode=S_IFREG|0644, st_size=36864, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/System.Runtime.Serialization.Primitives.dll", {st_mode=S_IFREG|0644, st_size=32768, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/System.Runtime.Serialization.Primitives.dll", {st_mode=S_IFREG|0644, st_size=32768, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/System.Runtime.Serialization.Xml.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/System.Runtime.Serialization.Xml.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll", {st_mode=S_IFREG|0644, st_size=20480, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib/netstandard1.3", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll", {st_mode=S_IFREG|0644, st_size=20480, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll", {st_mode=S_IFREG|0644, st_size=872448, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib/netstandard1.3", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll", {st_mode=S_IFREG|0644, st_size=872448, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/System.ValueTuple.dll", {st_mode=S_IFREG|0644, st_size=454656, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/System.ValueTuple.dll", {st_mode=S_IFREG|0644, st_size=454656, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/System.Xml.XmlDocument.dll", {st_mode=S_IFREG|0644, st_size=315392, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/System.Xml.XmlDocument.dll", {st_mode=S_IFREG|0644, st_size=315392, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/System.Xml.XmlSerializer.dll", {st_mode=S_IFREG|0644, st_size=929792, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/System.Xml.XmlSerializer.dll", {st_mode=S_IFREG|0644, st_size=929792, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/System.Xml.XPath.XDocument.dll", {st_mode=S_IFREG|0644, st_size=57344, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/System.Xml.XPath.XDocument.dll", {st_mode=S_IFREG|0644, st_size=57344, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/System.Xml.XPath.XmlDocument.dll", {st_mode=S_IFREG|0644, st_size=262144, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/System.Xml.XPath.XmlDocument.dll", {st_mode=S_IFREG|0644, st_size=262144, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/System.Xml.XPath.dll", {st_mode=S_IFREG|0644, st_size=462848, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/System.Xml.XPath.dll", {st_mode=S_IFREG|0644, st_size=462848, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/Microsoft.CSharp.dll", {st_mode=S_IFREG|0644, st_size=1146880, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/Microsoft.CSharp.dll", {st_mode=S_IFREG|0644, st_size=1146880, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/Microsoft.CodeAnalysis.VisualBasic.dll", {st_mode=S_IFREG|0644, st_size=13357056, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/Microsoft.CodeAnalysis.VisualBasic.dll", {st_mode=S_IFREG|0644, st_size=13357056, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/Microsoft.VisualBasic.dll", {st_mode=S_IFREG|0644, st_size=483328, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/Microsoft.VisualBasic.dll", {st_mode=S_IFREG|0644, st_size=483328, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/Microsoft.Win32.Registry.dll", {st_mode=S_IFREG|0644, st_size=53248, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/Microsoft.Win32.Registry.dll", {st_mode=S_IFREG|0644, st_size=53248, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.AppContext.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.AppContext.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Buffers.dll", {st_mode=S_IFREG|0644, st_size=32768, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Buffers.dll", {st_mode=S_IFREG|0644, st_size=32768, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Collections.Concurrent.dll", {st_mode=S_IFREG|0644, st_size=204800, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Collections.Concurrent.dll", {st_mode=S_IFREG|0644, st_size=204800, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.ComponentModel.Annotations.dll", {st_mode=S_IFREG|0644, st_size=155648, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.ComponentModel.Annotations.dll", {st_mode=S_IFREG|0644, st_size=155648, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.ComponentModel.dll", {st_mode=S_IFREG|0644, st_size=20480, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.ComponentModel.dll", {st_mode=S_IFREG|0644, st_size=20480, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Diagnostics.DiagnosticSource.dll", {st_mode=S_IFREG|0644, st_size=49152, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Diagnostics.DiagnosticSource.dll", {st_mode=S_IFREG|0644, st_size=49152, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Diagnostics.Process.dll", {st_mode=S_IFREG|0644, st_size=172032, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Diagnostics.Process.dll", {st_mode=S_IFREG|0644, st_size=172032, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Dynamic.Runtime.dll", {st_mode=S_IFREG|0644, st_size=266240, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Dynamic.Runtime.dll", {st_mode=S_IFREG|0644, st_size=266240, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Globalization.Extensions.dll", {st_mode=S_IFREG|0644, st_size=36864, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Globalization.Extensions.dll", {st_mode=S_IFREG|0644, st_size=36864, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.IO.Compression.ZipFile.dll", {st_mode=S_IFREG|0644, st_size=36864, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.IO.Compression.ZipFile.dll", {st_mode=S_IFREG|0644, st_size=36864, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.IO.Compression.dll", {st_mode=S_IFREG|0644, st_size=258048, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.IO.Compression.dll", {st_mode=S_IFREG|0644, st_size=258048, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.IO.FileSystem.Primitives.dll", {st_mode=S_IFREG|0644, st_size=16384, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.IO.FileSystem.Primitives.dll", {st_mode=S_IFREG|0644, st_size=16384, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.IO.FileSystem.Watcher.dll", {st_mode=S_IFREG|0644, st_size=90112, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.IO.FileSystem.Watcher.dll", {st_mode=S_IFREG|0644, st_size=90112, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.IO.MemoryMappedFiles.dll", {st_mode=S_IFREG|0644, st_size=69632, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.IO.MemoryMappedFiles.dll", {st_mode=S_IFREG|0644, st_size=69632, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.IO.UnmanagedMemoryStream.dll", {st_mode=S_IFREG|0644, st_size=77824, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.IO.UnmanagedMemoryStream.dll", {st_mode=S_IFREG|0644, st_size=77824, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Linq.Expressions.dll", {st_mode=S_IFREG|0644, st_size=1331200, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Linq.Expressions.dll", {st_mode=S_IFREG|0644, st_size=1331200, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Linq.Parallel.dll", {st_mode=S_IFREG|0644, st_size=1368064, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Linq.Parallel.dll", {st_mode=S_IFREG|0644, st_size=1368064, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Linq.Queryable.dll", {st_mode=S_IFREG|0644, st_size=176128, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Linq.Queryable.dll", {st_mode=S_IFREG|0644, st_size=176128, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Linq.dll", {st_mode=S_IFREG|0644, st_size=389120, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Linq.dll", {st_mode=S_IFREG|0644, st_size=389120, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Net.Http.dll", {st_mode=S_IFREG|0644, st_size=720896, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Net.Http.dll", {st_mode=S_IFREG|0644, st_size=720896, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Net.NameResolution.dll", {st_mode=S_IFREG|0644, st_size=114688, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Net.NameResolution.dll", {st_mode=S_IFREG|0644, st_size=114688, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Net.Requests.dll", {st_mode=S_IFREG|0644, st_size=90112, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Net.Requests.dll", {st_mode=S_IFREG|0644, st_size=90112, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Net.Security.dll", {st_mode=S_IFREG|0644, st_size=483328, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Net.Security.dll", {st_mode=S_IFREG|0644, st_size=483328, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Net.WebHeaderCollection.dll", {st_mode=S_IFREG|0644, st_size=40960, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Net.WebHeaderCollection.dll", {st_mode=S_IFREG|0644, st_size=40960, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Numerics.Vectors.dll", {st_mode=S_IFREG|0644, st_size=237568, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Numerics.Vectors.dll", {st_mode=S_IFREG|0644, st_size=237568, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.ObjectModel.dll", {st_mode=S_IFREG|0644, st_size=86016, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.ObjectModel.dll", {st_mode=S_IFREG|0644, st_size=86016, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Reflection.DispatchProxy.dll", {st_mode=S_IFREG|0644, st_size=69632, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Reflection.DispatchProxy.dll", {st_mode=S_IFREG|0644, st_size=69632, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Reflection.Emit.ILGeneration.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Reflection.Emit.ILGeneration.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Reflection.Emit.Lightweight.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Reflection.Emit.Lightweight.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Reflection.Emit.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Reflection.Emit.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Reflection.TypeExtensions.dll", {st_mode=S_IFREG|0644, st_size=32768, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Reflection.TypeExtensions.dll", {st_mode=S_IFREG|0644, st_size=32768, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Resources.Reader.dll", {st_mode=S_IFREG|0644, st_size=40960, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Resources.Reader.dll", {st_mode=S_IFREG|0644, st_size=40960, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Runtime.InteropServices.RuntimeInformation.dll", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Runtime.InteropServices.RuntimeInformation.dll", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Runtime.Loader.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Runtime.Loader.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Runtime.Numerics.dll", {st_mode=S_IFREG|0644, st_size=172032, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Runtime.Numerics.dll", {st_mode=S_IFREG|0644, st_size=172032, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Claims.dll", {st_mode=S_IFREG|0644, st_size=94208, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Claims.dll", {st_mode=S_IFREG|0644, st_size=94208, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Cryptography.Algorithms.dll", {st_mode=S_IFREG|0644, st_size=192512, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Cryptography.Algorithms.dll", {st_mode=S_IFREG|0644, st_size=192512, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Cryptography.Cng.dll", {st_mode=S_IFREG|0644, st_size=36864, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Cryptography.Cng.dll", {st_mode=S_IFREG|0644, st_size=36864, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Cryptography.Csp.dll", {st_mode=S_IFREG|0644, st_size=24576, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Cryptography.Csp.dll", {st_mode=S_IFREG|0644, st_size=24576, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Cryptography.Encoding.dll", {st_mode=S_IFREG|0644, st_size=69632, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Cryptography.Encoding.dll", {st_mode=S_IFREG|0644, st_size=69632, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Cryptography.OpenSsl.dll", {st_mode=S_IFREG|0644, st_size=106496, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Cryptography.OpenSsl.dll", {st_mode=S_IFREG|0644, st_size=106496, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Cryptography.Primitives.dll", {st_mode=S_IFREG|0644, st_size=73728, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Cryptography.Primitives.dll", {st_mode=S_IFREG|0644, st_size=73728, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Cryptography.X509Certificates.dll", {st_mode=S_IFREG|0644, st_size=360448, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Cryptography.X509Certificates.dll", {st_mode=S_IFREG|0644, st_size=360448, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Principal.Windows.dll", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Principal.Windows.dll", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Principal.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Principal.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Text.RegularExpressions.dll", {st_mode=S_IFREG|0644, st_size=266240, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Text.RegularExpressions.dll", {st_mode=S_IFREG|0644, st_size=266240, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.Overlapped.dll", {st_mode=S_IFREG|0644, st_size=20480, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.Overlapped.dll", {st_mode=S_IFREG|0644, st_size=20480, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.Tasks.Dataflow.dll", {st_mode=S_IFREG|0644, st_size=499712, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.Tasks.Dataflow.dll", {st_mode=S_IFREG|0644, st_size=499712, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.Tasks.Extensions.dll", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.Tasks.Extensions.dll", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.Tasks.Parallel.dll", {st_mode=S_IFREG|0644, st_size=110592, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.Tasks.Parallel.dll", {st_mode=S_IFREG|0644, st_size=110592, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.Thread.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.Thread.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.ThreadPool.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.ThreadPool.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.dll", {st_mode=S_IFREG|0644, st_size=77824, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.dll", {st_mode=S_IFREG|0644, st_size=77824, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Xml.ReaderWriter.dll", {st_mode=S_IFREG|0644, st_size=1671168, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Xml.ReaderWriter.dll", {st_mode=S_IFREG|0644, st_size=1671168, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Xml.XDocument.dll", {st_mode=S_IFREG|0644, st_size=262144, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Xml.XDocument.dll", {st_mode=S_IFREG|0644, st_size=262144, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Collections.dll", {st_mode=S_IFREG|0644, st_size=299008, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Collections.dll", {st_mode=S_IFREG|0644, st_size=299008, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Diagnostics.Tools.dll", {st_mode=S_IFREG|0644, st_size=16384, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Diagnostics.Tools.dll", {st_mode=S_IFREG|0644, st_size=16384, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Diagnostics.Tracing.dll", {st_mode=S_IFREG|0644, st_size=45056, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Diagnostics.Tracing.dll", {st_mode=S_IFREG|0644, st_size=45056, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Globalization.Calendars.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Globalization.Calendars.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Globalization.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Globalization.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.IO.dll", {st_mode=S_IFREG|0644, st_size=65536, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.IO.dll", {st_mode=S_IFREG|0644, st_size=65536, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Reflection.Extensions.dll", {st_mode=S_IFREG|0644, st_size=20480, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Reflection.Extensions.dll", {st_mode=S_IFREG|0644, st_size=20480, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Reflection.Primitives.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Reflection.Primitives.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Reflection.dll", {st_mode=S_IFREG|0644, st_size=16384, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Reflection.dll", {st_mode=S_IFREG|0644, st_size=16384, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Resources.ResourceManager.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Resources.ResourceManager.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Runtime.Handles.dll", {st_mode=S_IFREG|0644, st_size=20480, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Runtime.Handles.dll", {st_mode=S_IFREG|0644, st_size=20480, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Runtime.InteropServices.dll", {st_mode=S_IFREG|0644, st_size=36864, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Runtime.InteropServices.dll", {st_mode=S_IFREG|0644, st_size=36864, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Runtime.dll", {st_mode=S_IFREG|0644, st_size=40960, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Runtime.dll", {st_mode=S_IFREG|0644, st_size=40960, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Text.Encoding.Extensions.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Text.Encoding.Extensions.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Text.Encoding.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Text.Encoding.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.Tasks.dll", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.Tasks.dll", {st_mode=S_IFREG|0644, st_size=28672, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.Timer.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Threading.Timer.dll", {st_mode=S_IFREG|0644, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/SOS.NETCore.dll", {st_mode=S_IFREG|0644, st_size=53248, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/SOS.NETCore.dll", {st_mode=S_IFREG|0644, st_size=53248, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Private.CoreLib.dll", {st_mode=S_IFREG|0644, st_size=2281472, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Private.CoreLib.dll", {st_mode=S_IFREG|0644, st_size=2281472, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/mscorlib.dll", {st_mode=S_IFREG|0644, st_size=31744, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/mscorlib.dll", {st_mode=S_IFREG|0644, st_size=31744, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/Microsoft.Win32.Primitives.dll", {st_mode=S_IFREG|0644, st_size=24576, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/Microsoft.Win32.Primitives.dll", {st_mode=S_IFREG|0644, st_size=24576, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Console.dll", {st_mode=S_IFREG|0644, st_size=204800, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Console.dll", {st_mode=S_IFREG|0644, st_size=204800, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Diagnostics.Debug.dll", {st_mode=S_IFREG|0644, st_size=49152, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Diagnostics.Debug.dll", {st_mode=S_IFREG|0644, st_size=49152, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.IO.FileSystem.dll", {st_mode=S_IFREG|0644, st_size=212992, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.IO.FileSystem.dll", {st_mode=S_IFREG|0644, st_size=212992, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Net.Primitives.dll", {st_mode=S_IFREG|0644, st_size=466944, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Net.Primitives.dll", {st_mode=S_IFREG|0644, st_size=466944, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Net.Sockets.dll", {st_mode=S_IFREG|0644, st_size=524288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Net.Sockets.dll", {st_mode=S_IFREG|0644, st_size=524288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Private.Uri.dll", {st_mode=S_IFREG|0644, st_size=282624, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Private.Uri.dll", {st_mode=S_IFREG|0644, st_size=282624, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Runtime.Extensions.dll", {st_mode=S_IFREG|0644, st_size=143360, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Runtime.Extensions.dll", {st_mode=S_IFREG|0644, st_size=143360, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/runtimes/any/native/Microsoft.TestPlatform.targets", {st_mode=S_IFREG|0766, st_size=4169, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/any", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/any/native", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/workspace/dotnet/sdk/1.1.11/runtimes/any/native/NuGet.targets", {st_mode=S_IFREG|0766, st_size=44317, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/any", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/sdk/1.1.11/runtimes/any/native", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libuv.so", {st_mode=S_IFREG|0755, st_size=472267, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/dotnet", {st_mode=S_IFREG|0755, st_size=128901, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libhostpolicy.so", {st_mode=S_IFREG|0755, st_size=1140916, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libhostfxr.so", {st_mode=S_IFREG|0755, st_size=914864, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libclrjit.so", {st_mode=S_IFREG|0755, st_size=2785063, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Globalization.Native.so", {st_mode=S_IFREG|0755, st_size=70212, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Private.CoreLib.ni.dll", {st_mode=S_IFREG|0644, st_size=9568256, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libcoreclr.so", {st_mode=S_IFREG|0755, st_size=8632740, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libcoreclrtraceptprovider.so", {st_mode=S_IFREG|0755, st_size=708150, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libdbgshim.so", {st_mode=S_IFREG|0755, st_size=1045969, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libmscordaccore.so", {st_mode=S_IFREG|0755, st_size=3639653, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libmscordbi.so", {st_mode=S_IFREG|0755, st_size=2424666, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libsos.so", {st_mode=S_IFREG|0755, st_size=591855, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libsosplugin.so", {st_mode=S_IFREG|0755, st_size=88661, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/mscorlib.ni.dll", {st_mode=S_IFREG|0644, st_size=45056, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/sosdocsunix.txt", {st_mode=S_IFREG|0644, st_size=65418, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.IO.Compression.Native.so", {st_mode=S_IFREG|0755, st_size=10576, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Net.Http.Native.so", {st_mode=S_IFREG|0755, st_size=14736, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Net.Security.Native.so", {st_mode=S_IFREG|0755, st_size=10656, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Cryptography.Native.OpenSsl.so", {st_mode=S_IFREG|0755, st_size=74328, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Security.Cryptography.Native.so", {st_mode=S_IFREG|0755, st_size=74320, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Native.a", {st_mode=S_IFREG|0644, st_size=93826, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Native.so", {st_mode=S_IFREG|0755, st_size=56632, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libcoreclr.so", {st_mode=S_IFREG|0755, st_size=8632740, ...}) = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libclrjit.so", {st_mode=S_IFREG|0755, st_size=2785063, ...}) = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libcoreclr.so", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\363\6\0\0\0\0\0"..., 832) = 832
+fstat(6, {st_mode=S_IFREG|0755, st_size=8632740, ...}) = 0
+mmap(NULL, 9253160, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x7f9239610000
+mprotect(0x7f9239c80000, 2097152, PROT_NONE) = 0
+mmap(0x7f9239e80000, 221184, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0x670000) = 0x7f9239e80000
+mmap(0x7f9239eb6000, 184616, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9239eb6000
+close(6)                                = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f923b6be000
+close(6)                                = 0
+open("/lib64/librt.so.1", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@!\0\0\0\0\0\0"..., 832) = 832
+fstat(6, {st_mode=S_IFREG|0755, st_size=42160, ...}) = 0
+mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x7f9239408000
+mprotect(0x7f923940f000, 2093056, PROT_NONE) = 0
+mmap(0x7f923960e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0x6000) = 0x7f923960e000
+close(6)                                = 0
+open("/usr/lib64/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\27\0\0\0\0\0\0"..., 832) = 832
+fstat(6, {st_mode=S_IFREG|0755, st_size=18672, ...}) = 0
+mmap(NULL, 2113560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x7f9239203000
+mprotect(0x7f9239207000, 2093056, PROT_NONE) = 0
+mmap(0x7f9239406000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0x3000) = 0x7f9239406000
+close(6)                                = 0
+open("/lib64/libunwind.so.8", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\27\0\0\0\0\0\0"..., 832) = 832
+fstat(6, {st_mode=S_IFREG|0755, st_size=43016, ...}) = 0
+mmap(NULL, 2199240, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x7f9238fea000
+mprotect(0x7f9238ff4000, 2093056, PROT_NONE) = 0
+mmap(0x7f92391f3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0x9000) = 0x7f92391f3000
+mmap(0x7f92391f5000, 57032, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f92391f5000
+close(6)                                = 0
+open("/usr/lib64/libunwind-x86_64.so.8", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\27\0\0\0\0\0\0"..., 832) = 832
+fstat(6, {st_mode=S_IFREG|0755, st_size=67608, ...}) = 0
+mmap(NULL, 2223752, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x7f9238dcb000
+mprotect(0x7f9238ddb000, 2093056, PROT_NONE) = 0
+mmap(0x7f9238fda000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0xf000) = 0x7f9238fda000
+mmap(0x7f9238fdc000, 56968, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9238fdc000
+close(6)                                = 0
+mprotect(0x7f92391f3000, 4096, PROT_READ) = 0
+mprotect(0x7f9238fda000, 4096, PROT_READ) = 0
+mprotect(0x7f9239406000, 4096, PROT_READ) = 0
+mprotect(0x7f923960e000, 4096, PROT_READ) = 0
+mprotect(0x7f9239610000, 6750208, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f9239610000, 6750208, PROT_READ|PROT_EXEC) = 0
+mprotect(0x7f9239e80000, 180224, PROT_READ) = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libcoreclrtraceptprovider.so", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 E\2\0\0\0\0\0"..., 832) = 832
+fstat(6, {st_mode=S_IFREG|0755, st_size=708150, ...}) = 0
+mmap(NULL, 2657944, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x7f9238b42000
+mprotect(0x7f9238b8c000, 2097152, PROT_NONE) = 0
+mmap(0x7f9238d8c000, 258048, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0x4a000) = 0x7f9238d8c000
+close(6)                                = 0
+open("/lib64/tls/x86_64/liblttng-ust.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib64/tls/x86_64", 0x7fffcd93c7d0) = -1 ENOENT (No such file or directory)
+open("/lib64/tls/liblttng-ust.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib64/tls", 0x7fffcd93c7d0)      = -1 ENOENT (No such file or directory)
+open("/lib64/x86_64/liblttng-ust.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib64/x86_64", 0x7fffcd93c7d0)   = -1 ENOENT (No such file or directory)
+open("/lib64/liblttng-ust.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib64/tls/x86_64/liblttng-ust.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/tls/x86_64", 0x7fffcd93c7d0) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/tls/liblttng-ust.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/tls", 0x7fffcd93c7d0)  = -1 ENOENT (No such file or directory)
+open("/usr/lib64/x86_64/liblttng-ust.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/x86_64", 0x7fffcd93c7d0) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/liblttng-ust.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=61440, ...}) = 0
+munmap(0x7f923b6be000, 60745)           = 0
+munmap(0x7f9238b42000, 2657944)         = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f923b6be000
+close(6)                                = 0
+open("/lib64/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f923b6be000, 60745)           = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f923b6be000
+close(6)                                = 0
+open("/lib64/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/liblttng-ust-tracepoint.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f923b6be000, 60745)           = 0
+gettid()                                = 12
+getsid(12)                              = 1
+gettid()                                = 12
+gettid()                                = 12
+gettid()                                = 12
+gettid()                                = 12
+gettid()                                = 12
+gettid()                                = 12
+getrlimit(RLIMIT_NOFILE, {rlim_cur=1024*1024, rlim_max=1024*1024}) = 0
+setrlimit(RLIMIT_NOFILE, {rlim_cur=1024*1024, rlim_max=1024*1024}) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b677000
+gettid()                                = 12
+gettid()                                = 12
+gettid()                                = 12
+gettid()                                = 12
+pipe([6, 7])                            = 0
+stat("/workspace/dotnet/dotnet", {st_mode=S_IFREG|0755, st_size=128926, ...}) = 0
+geteuid()                               = 0
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/dotnet", {st_mode=S_IFREG|0755, st_size=128926, ...}) = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f92385ca000
+mprotect(0x7f92385ca000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f9238dc9fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f9238dca9d0, tls=0x7f9238dca700, child_tidptr=0x7f9238dca9d0) = 13
+rt_sigaction(SIGILL, {0x7f9239aa9d60, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTRAP, {0x7f9239aa9de0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGFPE, {0x7f9239aa9e50, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGBUS, {0x7f9239aa9ed0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSEGV, {0x7f9239aa9f60, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, {0x7f9239aa9ff0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGQUIT, {0x7f9239aaa030, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, {0x7f9239aaa070, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_2, {0x7f9239aaa0a0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f923a47bfe0}, {SIG_DFL, [], 0}, 8) = 0
+mmap(0x7f91bfa20000, 2042560512, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f91be9da000
+munmap(0x7f91be9da000, 2042560512)      = 0
+mmap(0x7f91bfa20000, 1908342784, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f91bfa20000
+dup(0)                                  = 8
+dup(1)                                  = 9
+dup(2)                                  = 10
+gettid()                                = 12
+open("/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 11
+read(11, "0-7\n", 8192)                 = 4
+close(11)                               = 0
+mlock(0x7f9239ee2000, 4096)             = 0
+brk(0x1851000)                          = 0x1851000
+gettid()                                = 12
+mprotect(0x7f923984d000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC) = 0
+mprotect(0x7f9239b1f000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC) = 0
+mprotect(0x7f9239b1f000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC) = 0
+mmap(NULL, 131072, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b657000
+mprotect(0x7f923b660000, 8192, PROT_READ|PROT_WRITE) = 0
+open("/proc/12/stat", O_RDONLY)         = 11
+fstat(11, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b6cc000
+read(11, "12 (dotnet) R 10 10 1 34816 10 4"..., 1024) = 274
+close(11)                               = 0
+munmap(0x7f923b6cc000, 4096)            = 0
+open("/proc/12/stat", O_RDONLY)         = 11
+fstat(11, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b6cc000
+read(11, "12 (dotnet) R 10 10 1 34816 10 4"..., 1024) = 274
+close(11)                               = 0
+munmap(0x7f923b6cc000, 4096)            = 0
+mknod("/tmp/clr-debug-pipe-12-1148713-in", S_IFIFO|0700) = 0
+mknod("/tmp/clr-debug-pipe-12-1148713-out", S_IFIFO|0700) = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9237dc9000
+mprotect(0x7f9237dc9000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f92385c8fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f92385c99d0, tls=0x7f92385c9700, child_tidptr=0x7f92385c99d0) = 14
+futex(0x7f9239ede34c, FUTEX_WAIT_PRIVATE, 1, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x7f9239ede320, FUTEX_WAKE_PRIVATE, 1) = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f92375c8000
+mprotect(0x7f92375c8000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f9237dc7fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f9237dc89d0, tls=0x7f9237dc8700, child_tidptr=0x7f9237dc89d0) = 15
+futex(0x17c6fd4, FUTEX_WAIT_PRIVATE, 1, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x17c6fa8, FUTEX_WAKE_PRIVATE, 1) = 0
+write(13, "*", 1)                       = 1
+futex(0x17c73e8, FUTEX_WAKE_PRIVATE, 1) = 1
+open("/proc/12/stat", O_RDONLY)         = 12
+fstat(12, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b6cc000
+read(12, "12 (dotnet) R 10 10 1 34816 10 4"..., 1024) = 274
+close(12)                               = 0
+munmap(0x7f923b6cc000, 4096)            = 0
+statfs("/dev/shm/", {f_type="TMPFS_MAGIC", f_bsize=4096, f_blocks=16384, f_bfree=16384, f_bavail=16384, f_files=4107422, f_ffree=4107421, f_fsid={0, 0}, f_namelen=255, f_frsize=4096}) = 0
+futex(0x7f923b2a7310, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/dev/shm/sem.clrst0000000c0000000000118729", O_RDWR|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+gettid()                                = 12
+open("/proc/self/maps", O_RDONLY|O_CLOEXEC) = 12
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+fstat(12, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b6cc000
+read(12, "00400000-00416000 r-xp 00000000 "..., 1024) = 1024
+read(12, "f9238ddb000-7f9238fda000 ---p 00"..., 1024) = 1024
+read(12, "\n7f9239406000-7f9239407000 r--p "..., 1024) = 1024
+read(12, "000 rwxp 0050f000 08:11 55189184"..., 1024) = 1024
+read(12, "9188                   /workspac"..., 1024) = 1024
+read(12, "        /lib64/libc-2.22.so\n7f92"..., 1024) = 1024
+read(12, "7f923ae7c000 r-xp 00000000 08:03"..., 1024) = 1024
+read(12, "002000 08:03 6584831            "..., 1024) = 1024
+close(12)                               = 0
+munmap(0x7f923b6cc000, 4096)            = 0
+sched_getaffinity(12, 32, {ff, 0, 0, 0}) = 32
+open("/proc/self/maps", O_RDONLY|O_CLOEXEC) = 12
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+fstat(12, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b6cc000
+read(12, "00400000-00416000 r-xp 00000000 "..., 1024) = 1024
+read(12, "f9238ddb000-7f9238fda000 ---p 00"..., 1024) = 1024
+read(12, "\n7f9239406000-7f9239407000 r--p "..., 1024) = 1024
+read(12, "000 rwxp 0050f000 08:11 55189184"..., 1024) = 1024
+read(12, "9188                   /workspac"..., 1024) = 1024
+read(12, "        /lib64/libc-2.22.so\n7f92"..., 1024) = 1024
+read(12, "7f923ae7c000 r-xp 00000000 08:03"..., 1024) = 1024
+read(12, "002000 08:03 6584831            "..., 1024) = 1024
+close(12)                               = 0
+munmap(0x7f923b6cc000, 4096)            = 0
+sched_getaffinity(12, 32, {ff, 0, 0, 0}) = 32
+gettid()                                = 12
+gettid()                                = 12
+gettid()                                = 12
+mmap(NULL, 402661376, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9197ffe000
+brk(0x1886000)                          = 0x1886000
+mmap(NULL, 3641344, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923724f000
+mprotect(0x7f923724f000, 495616, PROT_READ|PROT_WRITE) = 0
+mmap(NULL, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b556000
+open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 12
+fstat(12, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b6cc000
+read(12, "MemTotal:       32859380 kB\nMemF"..., 1024) = 1024
+close(12)                               = 0
+munmap(0x7f923b6cc000, 4096)            = 0
+open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 12
+fstat(12, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b6cc000
+read(12, "MemTotal:       32859380 kB\nMemF"..., 1024) = 1024
+close(12)                               = 0
+munmap(0x7f923b6cc000, 4096)            = 0
+mprotect(0x7f9197ffe000, 8192, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f91a7ffe000, 8192, PROT_READ|PROT_WRITE) = 0
+mmap(NULL, 151552, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b531000
+gettid()                                = 12
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9236a4e000
+mprotect(0x7f9236a4e000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f923724dfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f923724e9d0, tls=0x7f923724e700, child_tidptr=0x7f923724e9d0) = 16
+futex(0x17a7684, FUTEX_WAIT_PRIVATE, 1, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x17a7658, FUTEX_WAKE_PRIVATE, 1) = 0
+write(13, "*", 1)                       = 1
+futex(0x17a7a98, FUTEX_WAKE_PRIVATE, 1) = 1
+lstat("/workspace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Private.CoreLib.ni.dll", {st_mode=S_IFREG|0644, st_size=9568256, ...}) = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Private.CoreLib.ni.dll", O_RDONLY) = 12
+flock(12, LOCK_SH|LOCK_NB)              = 0
+fcntl(12, F_SETFD, FD_CLOEXEC)          = 0
+lseek(12, 0, SEEK_SET)                  = 0
+read(12, "MZ\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 64) = 64
+lseek(12, 128, SEEK_SET)                = 128
+read(12, "PE\0\0\35\375\4\0\236\256\221[\0\0\0\0\0\0\0\0\360\0\" \v\2\v\0\0\0\0\0"..., 264) = 264
+mmap(0x7f91bfb56000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED, 12, 0) = 0x7f91bfb56000
+mmap(0x7f91bfb57000, 1581056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 12, 0x1000) = 0x7f91bfb57000
+mmap(0x7f91bfcd9000, 131072, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 12, 0x183000) = 0x7f91bfcd9000
+mmap(0x7f91bfcf9000, 7667712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 12, 0x1a3000) = 0x7f91bfcf9000
+mmap(0x7f91c0449000, 184320, PROT_READ, MAP_PRIVATE|MAP_FIXED, 12, 0x8f3000) = 0x7f91c0449000
+mprotect(0x7f91bfcf9000, 7667712, PROT_READ|PROT_WRITE|PROT_EXEC) = 0
+mprotect(0x7f91bfcf9000, 7667712, PROT_READ|PROT_EXEC) = 0
+mprotect(0x7f91bfa46000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f91bfa36000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f91bfa49000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f91a8000000, 65536, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f91bfa3c000, 4096, PROT_READ|PROT_WRITE) = 0
+mmap(NULL, 65536, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b521000
+mprotect(0x7f923b521000, 65536, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f9198000000, 65536, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f91bfb1c000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f91bfb1c000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC) = 0
+mprotect(0x7f91bfaf6000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f91bfaf6000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC) = 0
+mprotect(0x7f91c0476000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f91c0476000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC) = 0
+mprotect(0x7f91bfa37000, 4096, PROT_READ|PROT_WRITE) = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libclrjit.so", O_RDONLY|O_CLOEXEC) = 13
+read(13, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\3\2\0\0\0\0\0"..., 832) = 832
+fstat(13, {st_mode=S_IFREG|0755, st_size=2785063, ...}) = 0
+mmap(NULL, 4608232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 13, 0) = 0x7f92365e8000
+mprotect(0x7f923681f000, 2093056, PROT_NONE) = 0
+mmap(0x7f9236a1e000, 73728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x236000) = 0x7f9236a1e000
+mmap(0x7f9236a30000, 119016, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9236a30000
+close(13)                               = 0
+mprotect(0x7f9236a1e000, 61440, PROT_READ) = 0
+gettid()                                = 12
+getsid(12)                              = 1
+gettid()                                = 12
+gettid()                                = 12
+gettid()                                = 12
+gettid()                                = 12
+gettid()                                = 12
+gettid()                                = 12
+getrlimit(RLIMIT_NOFILE, {rlim_cur=1024*1024, rlim_max=1024*1024}) = 0
+setrlimit(RLIMIT_NOFILE, {rlim_cur=1024*1024, rlim_max=1024*1024}) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b4e1000
+gettid()                                = 12
+gettid()                                = 12
+gettid()                                = 12
+gettid()                                = 12
+pipe([13, 14])                          = 0
+rt_sigaction(SIGILL, {0x7f9236775eb0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, {0x7f9239aa9d60, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, 8) = 0
+rt_sigaction(SIGTRAP, {0x7f9236775f30, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, {0x7f9239aa9de0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, 8) = 0
+rt_sigaction(SIGFPE, {0x7f9236775fa0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, {0x7f9239aa9e50, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, 8) = 0
+rt_sigaction(SIGBUS, {0x7f9236776020, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, {0x7f9239aa9ed0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, 8) = 0
+rt_sigaction(SIGSEGV, {0x7f92367760b0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, {0x7f9239aa9f60, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, 8) = 0
+rt_sigaction(SIGINT, {0x7f9236776140, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, {0x7f9239aa9ff0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, 8) = 0
+rt_sigaction(SIGQUIT, {0x7f9236776180, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, {0x7f9239aaa030, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, 8) = 0
+rt_sigaction(SIGRT_2, {0x7f92367761f0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, {0x7f9239aaa0a0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f923b09bc10}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f923a47bfe0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f923a47bfe0}, 8) = 0
+mmap(NULL, 65536, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b4d1000
+mprotect(0x7f923b4d1000, 65536, PROT_READ|PROT_WRITE) = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f923b6be000
+close(15)                               = 0
+open("/lib64/System.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/System.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f923b6be000, 60745)           = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libSystem.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f923b6be000
+close(15)                               = 0
+open("/lib64/libSystem.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libSystem.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f923b6be000, 60745)           = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = 15
+read(15, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20H\0\0\0\0\0\0"..., 832) = 832
+fstat(15, {st_mode=S_IFREG|0755, st_size=70212, ...}) = 0
+mmap(NULL, 2152000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 15, 0) = 0x7f92363da000
+mprotect(0x7f92363e7000, 2093056, PROT_NONE) = 0
+mmap(0x7f92365e6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 15, 0xc000) = 0x7f92365e6000
+close(15)                               = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f923b6be000
+close(15)                               = 0
+open("/lib64/libicuuc.so.52", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libicuuc.so.52", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f923b6be000, 60745)           = 0
+munmap(0x7f92363da000, 2152000)         = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f923b6be000
+close(15)                               = 0
+open("/lib64/System.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/System.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f923b6be000, 60745)           = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libSystem.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f923b6be000
+close(15)                               = 0
+open("/lib64/libSystem.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libSystem.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f923b6be000, 60745)           = 0
+futex(0x7f923aa031a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f923b6be000
+close(15)                               = 0
+open("/lib64/System.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/System.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f923b6be000, 60745)           = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libSystem.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f923b6be000
+close(15)                               = 0
+open("/lib64/libSystem.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libSystem.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f923b6be000, 60745)           = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = 15
+read(15, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20H\0\0\0\0\0\0"..., 832) = 832
+fstat(15, {st_mode=S_IFREG|0755, st_size=70212, ...}) = 0
+mmap(NULL, 2152000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 15, 0) = 0x7f92363da000
+mprotect(0x7f92363e7000, 2093056, PROT_NONE) = 0
+mmap(0x7f92365e6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 15, 0xc000) = 0x7f92365e6000
+close(15)                               = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f923b6be000
+close(15)                               = 0
+open("/lib64/libicuuc.so.52", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libicuuc.so.52", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f923b6be000, 60745)           = 0
+munmap(0x7f92363da000, 2152000)         = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f923b6be000
+close(15)                               = 0
+open("/lib64/System.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/System.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f923b6be000, 60745)           = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libSystem.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f923b6be000
+close(15)                               = 0
+open("/lib64/libSystem.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libSystem.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f923b6be000, 60745)           = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b6cc000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f923b6cb000
+mincore(0x7fffcd939d8f, 1, 0x7fffcd939d8f) = -1 EINVAL (Invalid argument)
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+msync(0x7f9239bf7000, 4096, MS_ASYNC)   = 0
+msync(0x7f9239b89000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+msync(0x7fffcd93a000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+msync(0x7f9239bbb000, 4096, MS_ASYNC)   = 0
+msync(0x7f9239eac000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+msync(0x7f9239bca000, 4096, MS_ASYNC)   = 0
+msync(0x7f9239b89000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+msync(0x7fffcd93a000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+msync(0x7f9239bbd000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+msync(0x7f9239ba5000, 4096, MS_ASYNC)   = 0
+msync(0x7f9239eac000, 4096, MS_ASYNC)   = 0
+msync(0x7f9239b89000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+msync(0x7fffcd93a000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+msync(0x7f9239bb3000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+msync(0x7fffcd93b000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+msync(0x7f9239ba5000, 4096, MS_ASYNC)   = 0
+msync(0x7f9239b89000, 4096, MS_ASYNC)   = 0
+msync(0x7f9239eac000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+msync(0x7f9239ba6000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+msync(0x7fffcd93b000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+msync(0x7fffcd93a000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+msync(0x7f9239bb3000, 4096, MS_ASYNC)   = 0
+msync(0x7f9239b89000, 4096, MS_ASYNC)   = 0
+msync(0x7f9239eac000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+msync(0x7fffcd93b000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+msync(0x7f9239ba5000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+msync(0x7f9239b98000, 4096, MS_ASYNC)   = 0
+msync(0x7f9239b89000, 4096, MS_ASYNC)   = 0
+msync(0x7f9239eac000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+msync(0x7fffcd93b000, 4096, MS_ASYNC)   = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f92365d9000
+close(15)                               = 0
+open("/lib64/System.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/System.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f92365d9000, 60745)           = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libSystem.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f92365d9000
+close(15)                               = 0
+open("/lib64/libSystem.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libSystem.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f92365d9000, 60745)           = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = 15
+read(15, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20H\0\0\0\0\0\0"..., 832) = 832
+fstat(15, {st_mode=S_IFREG|0755, st_size=70212, ...}) = 0
+mmap(NULL, 2152000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 15, 0) = 0x7f92363da000
+mprotect(0x7f92363e7000, 2093056, PROT_NONE) = 0
+mmap(0x7f92365e6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 15, 0xc000) = 0x7f92365e6000
+close(15)                               = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f92363cb000
+close(15)                               = 0
+open("/lib64/libicuuc.so.52", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libicuuc.so.52", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f92363cb000, 60745)           = 0
+munmap(0x7f92363da000, 2152000)         = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f92365d9000
+close(15)                               = 0
+open("/lib64/System.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/System.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f92365d9000, 60745)           = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libSystem.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f92365d9000
+close(15)                               = 0
+open("/lib64/libSystem.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libSystem.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f92365d9000, 60745)           = 0
+mprotect(0x7f91bfaf2000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f91bfaf2000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC) = 0
+mprotect(0x7f91bfae6000, 4096, PROT_READ|PROT_WRITE) = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f92365d9000
+close(15)                               = 0
+open("/lib64/System.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/System.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f92365d9000, 60745)           = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libSystem.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f92365d9000
+close(15)                               = 0
+open("/lib64/libSystem.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libSystem.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f92365d9000, 60745)           = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/System.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = 15
+read(15, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20H\0\0\0\0\0\0"..., 832) = 832
+fstat(15, {st_mode=S_IFREG|0755, st_size=70212, ...}) = 0
+mmap(NULL, 2152000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 15, 0) = 0x7f92363da000
+mprotect(0x7f92363e7000, 2093056, PROT_NONE) = 0
+mmap(0x7f92365e6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 15, 0xc000) = 0x7f92365e6000
+close(15)                               = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f92363cb000
+close(15)                               = 0
+open("/lib64/libicuuc.so.52", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libicuuc.so.52", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f92363cb000, 60745)           = 0
+munmap(0x7f92363da000, 2152000)         = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f92365d9000
+close(15)                               = 0
+open("/lib64/System.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/System.Globalization.Native.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f92365d9000, 60745)           = 0
+open("/workspace/dotnet/shared/Microsoft.NETCore.App/1.1.10/libSystem.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=60745, ...}) = 0
+mmap(NULL, 60745, PROT_READ, MAP_PRIVATE, 15, 0) = 0x7f92365d9000
+close(15)                               = 0
+open("/lib64/libSystem.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libSystem.Globalization.Native", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7f92365d9000, 60745)           = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+msync(0x7fffcd939000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+msync(0x7fffcd93a000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+msync(0x7f9239ba5000, 4096, MS_ASYNC)   = 0
+msync(0x7f9239b89000, 4096, MS_ASYNC)   = 0
+msync(0x7f9239eac000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+msync(0x7fffcd93b000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+msync(0x7f9239b91000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+msync(0x7fffcd93c000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+msync(0x7f9239bad000, 4096, MS_ASYNC)   = 0
+msync(0x7f9239b89000, 4096, MS_ASYNC)   = 0
+msync(0x7f9239eac000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+msync(0x7fffcd93b000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+msync(0x7fffcd93c000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+msync(0x7fffcd93d000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+msync(0x7f9239b8e000, 4096, MS_ASYNC)   = 0
+msync(0x7f9239b89000, 4096, MS_ASYNC)   = 0
+msync(0x7f9239eac000, 4096, MS_ASYNC)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], ~[KILL STOP RTMIN RT_1], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[KILL STOP RTMIN RT_1], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+write(2, "Failed to initialize CoreCLR, HR"..., 49) = 49
+write(2, "\n", 1)                       = 1
+munmap(0x7f9239ee4000, 2897704)         = 0
+munmap(0x7f923a1a8000, 2745944)         = 0
+unlink("/tmp/clr-debug-pipe-12-1148713-in") = 0
+unlink("/tmp/clr-debug-pipe-12-1148713-out") = 0
+exit_group(-2147450743)                 = ?
++++ exited with 137 +++

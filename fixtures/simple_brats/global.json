@@ -1,6 +1,3 @@
 {
-	"projects": [ "src", "test" ],
-	"sdk": {
-		"version": "<%= sdk_version %>"
-	}
+	"projects": [ "src", "test" ]
 }
