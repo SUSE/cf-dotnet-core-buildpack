@@ -151,6 +151,17 @@ func SkipUnlessStack(requiredStack string) {
 	}
 }
 
+func SkipUnlessStackIsOneOf(requiredStack []string) {
+	currentStack := os.Getenv("CS_STACK")
+
+	for _, e := range requiredStack {
+		if e == currentStack {
+			return
+		}
+	}
+	Skip(fmt.Sprintf("Skipping because the stack \"%s\" is not supported", currentStack))
+}
+
 func DestroyApp(app *cutlass.App) *cutlass.App {
 	if app != nil {
 		app.Destroy()

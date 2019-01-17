@@ -142,9 +142,9 @@ var _ = Describe("CF Dotnet Buildpack", func() {
 
 		Context("when RuntimeFrameworkVersion is explicitly defined in csproj", func() {
 			BeforeEach(func() {
+				SkipUnlessStack("cflinux3")
 				app = ReplaceFileTemplate(filepath.Join(bpDir, "fixtures", "source_2.1_explicit_runtime_templated"), "netcoreapp2.csproj", "runtime_version", previous21RuntimeVersion)
 				// app = ReplaceFileTemplate(app.Path, "buildpack.yml", "sdk_version", previous21SDKVersion)
-
 				app.Disk = "2G"
 				app.Memory = "2G"
 				fmt.Printf("previous21runtiem: %s", previous21RuntimeVersion)

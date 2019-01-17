@@ -1,11 +1,14 @@
 package integration_test
 
 import (
+	"fmt"
 	"path/filepath"
 	"time"
 
 	"github.com/cloudfoundry/libbuildpack/cutlass"
 	"github.com/sclevine/agouti"
+
+	"os"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
@@ -48,7 +51,13 @@ var _ = Describe("CF Dotnet Buildpack", func() {
 
 	Context("Deploying an angular app using msbuild and dotnet core 2.1", func() {
 		BeforeEach(func() {
-			SkipUnlessStack("cflinuxfs3")
+			stack := os.Getenv("CF_STACK")
+			fmt.Println("Deploying an angular app using msbuild and dotnet core 2.1 testing for " + stack)
+			if stack != "cflinuxfs3" {
+				SkipUnlessStack("sle12")
+			} else {
+				SkipUnlessStack("cflinuxfs3")
+			}
 			app = cutlass.New(filepath.Join(bpDir, "fixtures", "angular_msbuild_dotnet_2.1"))
 			app.Disk = "2G"
 			app.Memory = "2G"
