@@ -150,7 +150,7 @@ func SkipUnlessStack(requiredStack string) {
 	// Upstream tests dotnet-sdk 2.x against cflinuxfs3 (and not 1.x), so we
 	// have to treat sle12 as cflinuxfs3. If we treat it as cflinuxfs2
 	// it will run tests with fixtures for dotnet-sdk 1.0 (which we don't have for sle12)
-	if ( requiredStack == "cflinuxfs3" && !canRunForOneOfStacks(requiredStack, "sle12", "cfsle15fs") ) ||
+	if ( requiredStack == "cflinuxfs3" && !canRunForOneOfStacks(requiredStack, "sle12", "sle15") ) ||
 	   ( requiredStack == "cflinuxfs2" && !canRunForOneOfStacks(requiredStack) ){
 		Skip(fmt.Sprintf("Skipping because the stack \"%s\" is not supported", currentStack))
 	}
