@@ -16,6 +16,9 @@ import (
 )
 
 var cfStackToOS = map[string]string{
+	"sle12":       "sles.12.3-x64",
+	"sle15":       "sles.12.3-x64",
+	"opensuse42":  "opensuse-x64",
 	"cflinuxfs2":  "ubuntu.14.04-x64",
 	"cflinuxfs3":  "ubuntu.18.04-x64",
 	"cflinuxfs3m": "ubuntu.18.04-x64",
