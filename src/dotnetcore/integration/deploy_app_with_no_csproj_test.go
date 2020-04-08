@@ -25,7 +25,7 @@ var _ = Describe("running supply buildpacks with no csproj file", func() {
 			app = cutlass.New(Fixtures("fake_supply_staticfile_app_with_no_csproj_file"))
 			app.Buildpacks = []string{
 				"dotnet_core_buildpack",
-				"https://github.com/cloudfoundry/staticfile-buildpack/#master",
+				"https://github.com/SUSE/cf-staticfile-buildpack/#master",
 			}
 			app.Disk = "1G"
 		})

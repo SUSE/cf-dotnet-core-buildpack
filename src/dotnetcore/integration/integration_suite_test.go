@@ -161,7 +161,9 @@ func SkipUnlessCached() {
 
 func SkipUnlessStack(requiredStack string) {
 	currentStack := os.Getenv("CF_STACK")
-	if currentStack != requiredStack {
+
+	// Upstream tests dotnet-sdk 2.x against cflinuxfs3 (and not 1.x), so we
+	if requiredStack == "cflinuxfs3" && !canRunForOneOfStacks(requiredStack, "sle15") {
 		Skip(fmt.Sprintf("Skipping because the stack \"%s\" is not supported", currentStack))
 	}
 }
@@ -264,4 +266,13 @@ func PrintFailureLogs(appName string) error {
 	command.Stdout = GinkgoWriter
 	command.Stderr = GinkgoWriter
 	return command.Run()
+}
+
+func canRunForOneOfStacks(stacks ...string) bool {
+	for _, stack := range stacks {
+		if os.Getenv("CF_STACK") == stack {
+			return true
+		}
+	}
+	return false
 }
