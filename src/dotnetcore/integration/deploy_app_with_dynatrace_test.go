@@ -20,6 +20,7 @@ var _ = Describe("CF Dotnet Buildpack", func() {
 	)
 
 	BeforeEach(func() {
+		Skip("Skip dynatrace tests")
 		SkipUnlessStack("cflinuxfs3")
 
 		dynatraceAPI = cutlass.New(Fixtures("fake_dynatrace_api"))
