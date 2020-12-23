@@ -9,7 +9,8 @@ import (
 )
 
 var _ = Describe("Dotnet buildpack", func() {
-	bratshelper.UnbuiltBuildpack("dotnet", CopyBrats)
+	//Disable buildpack creation test for now because it is cflinuxfs3 specific
+	//bratshelper.UnbuiltBuildpack("dotnet", CopyBrats)
 
 	bratshelper.DeployingAnAppWithAnUpdatedVersionOfTheSameBuildpack(CopyBrats)
 
