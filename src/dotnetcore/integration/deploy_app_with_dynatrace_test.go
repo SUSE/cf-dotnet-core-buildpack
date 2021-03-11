@@ -20,10 +20,16 @@ var _ = Describe("CF Dotnet Buildpack", func() {
 	)
 
 	BeforeEach(func() {
+		Skip("Skip dynatrace tests")
 		SkipUnlessStack("cflinuxfs3")
 
 		dynatraceAPI = cutlass.New(Fixtures("fake_dynatrace_api"))
 		dynatraceAPI.SetEnv("BP_DEBUG", "true")
+
+		// Fixture is written in go
+		dynatraceAPI.Buildpacks = []string{
+			"https://github.com/suse/cf-go-buildpack#master",
+		}
 
 		Expect(dynatraceAPI.Push()).To(Succeed())
 		Eventually(func() ([]string, error) { return dynatraceAPI.InstanceStates() }, 60*time.Second).Should(Equal([]string{"RUNNING"}))
